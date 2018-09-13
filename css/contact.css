@@ -1,0 +1,24 @@
+.map-heading {
+    margin-top: 125px;
+    overflow: hidden;
+    font-family: 'La Belle Aurore', cursive;
+    color: #265d0c; /*green in logo #265d0c*/
+}
+.map {
+    overflow: hidden;
+    text-align: center;
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+}
+.map-border {
+    border: 3px solid #265d0c; /*green in logo #265d0c*/
+}
+.contact-form {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    width: 70%;
+    height: 750px;
+    border: 3px solid #265d0c; /*green in logo #265d0c*/
+}
