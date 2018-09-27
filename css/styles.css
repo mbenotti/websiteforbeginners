@@ -30,7 +30,7 @@ body {
     color: #265d0c; /*green in logo #265d0c*/
     font-weight: 600;
     font-style: italic;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .list-item a:hover {
     color: #f8c2eb; /*light pink*/
@@ -47,7 +47,6 @@ body {
 .banner-text-background {
     height: 100px;
     width: 350px;
-    /*background-color: #67706d; /*gray, but not showing up*/
     top: 150px;
     left: 10%;
     position: relative;
@@ -60,38 +59,40 @@ body {
 }
 .container {
     width: 100%;
-    height: 300px;
+    height: 350px;
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
 }
 .column-one {
     width: 58%;
-    height: 300px;
+    height: 350px;
     position: absolute;
     padding-left: 35px;
-    padding-top: 35px;
-    color: #265d0c;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #265d0c;/*text green in logo #265d0c*/
+    text-align: justify;
     border-top: outset 5px #ff96a2; /*banner pink #ff96a2*/
     border-left: outset 5px #ff96a2; /*banner pink #ff96a2*/
 }
 .column-two {
     width: 40%;
-    height: 300px;
+    height: 350px;
     position: absolute;
     left: 60%;
     border-top: outset 5px #ff96a2; /*banner pink #ff96a2*/
 }
 .photo-homepage-right {
     float: right;
-    height: 300px;
-    border-right: outset 5px #ff96a2; /*banner pink #ff96a2*/
-    border-left: outset 5px #ff96a2; /*banner pink #ff96a2*/
+    height: 325px;
+    border-right: solid 5px #ff96a2; /*banner pink #ff96a2*/
+    border-left: solid 5px #ff96a2; /*banner pink #ff96a2*/
 }
 .footer {
     width: 100%;
     height: 100px;
     background-color: #ff96a2; /*banner pink #ff96a2*/
-    color: white; /*green in logo #265d0c*/
+    color: white;
     overflow: hidden;
  }
 .footer-col {
@@ -102,13 +103,16 @@ body {
     margin-top: 15px;
     font-family: 'La Belle Aurore', cursive;
  }
- .input {
+.input {
     margin-left: 15px;
+ }
+ .button:hover {
+     border: solid 3px #265d0c;
  }
 .fa-facebook-square {
     margin-left: 10px;
 }
 .fa-2x {
-  color: #265d0c; /*green in logo #265d0c*/  
+  color: white;
 }
 

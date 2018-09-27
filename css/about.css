@@ -1,41 +1,47 @@
 .about-container {
     width: 100%;
-    height: 550px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 125px;
+    height: 630px;
     overflow: hidden;
 }
-.about-col-one {
-    width: 20%;
-    height: 500px;
+.about-col {
+    display: inline-block;
+    position: absolute;
+    height: 630px;
+    width: 31%;
+}
+.about-text {
+    color: #265d0c; /*green in logo #265d0c*/
+    text-align: justify;
+    width: 400px;
+}
+.about-img {
+    width: 100%;
+}
+.figure {
     position: relative;
     padding-left: 10px;
-    padding-top: 25px;
-    background-color: #ff96a2; /*banner pink #ff96a2*
-    border-top: dashed 5px #ff96a2; /*banner pink #ff96a2*/
-    border-right: solid 5px #ff96a2; /*banner pink #ff96a2*/
+    padding-right: 5px;
+    padding-top: 5px;
+    color: #265d0c; /*green in logo #265d0c*/
+    border: solid 1px #ff96a2; /*banner pink #ff96a2*/
 }
-.about-pic {
-    margin-top: 125px;
-    height: 300px;
-    border: double 5px #265d0c; /*green in logo #265d0c*/
+.figure-text {
+    font-family: 'La Belle Aurore', cursive;
+    color: #265d0c; /*green in logo #265d0c*/
 }
-.about-col-two {
-    width: 20%;
-    height: 375px;
-    position: relative;
-    margin-top: 125px;
-    padding-left: 5px;
-    padding-top: 25px;
-    /*border-top: outset 5px #ff96a2; /*banner pink #ff96a2*/
-    border-left: solid 5px #265d0c; /*green in logo #265d0c*/
+.audio {
+    position: absolute;
+    padding-top: 5px;
+    left: 32%;
+    padding-left: 15px;
 }
-.about-col-three {
-    width: 20%;
-    height: 375px;
-    position: relative;
-    margin-top: 125px;
-    padding-left: 5px;
-    padding-top: 25px;
-    border: solid 5px #265d0c; /*green in logo #265d0c*/
-    /*border-top: outset 5px #ff96a2; /*banner pink #ff96a2*/
-    /*border-left: outset 5px #ff96a2; /*banner pink #ff96a2*/
+.video {
+    position: absolute;
+    left: 65%;
+    width: 100%;
+    padding-left: 10px;
+    border: solid 1px #ff96a2; /*banner pink #ff96a2*/
 }

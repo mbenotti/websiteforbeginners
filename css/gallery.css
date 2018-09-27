@@ -1,0 +1,18 @@
+.gallery-container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    height: 1950px;
+    padding-top: 125px;
+    overflow: hidden;
+    background-color: black;
+}
+.gallery-heading {
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+    color: #ff96a2; /*banner pink #ff96a2*/
+    overflow: hidden;
+}
+.gallery-img {
+    margin: 25px;
+}
