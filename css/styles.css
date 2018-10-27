@@ -36,7 +36,7 @@ body {
     color: #f8c2eb; /*light pink*/
 }
 .banner {
-    background-image: url("../images/lotus.jpg");
+    background-image: url("../img/lotus.jpg");
     background-size: cover;
     background-position: center;
     height: 615px;
@@ -115,4 +115,3 @@ body {
 .fa-2x {
   color: white;
 }
-
